@@ -1,0 +1,12 @@
+import pdb
+pdb.set_trace()
+
+list1 = [5, 20, 15, 23, 25, 29, 34, 45, 50, 20]
+
+
+def remove_value(sample_list, val):
+    return [i for i in sample_list if i != val]
+
+
+res = remove_value(list1, 20)
+print(res)
